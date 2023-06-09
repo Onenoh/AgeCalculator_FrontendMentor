@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+<div class="section">
+  <div class="main">
+     <div class="date">
+         <h4 id="date1">DAY</h4>
+         <h4 id="date2">MONTH</h4>
+         <h4 id="date3">YEAR</h4>
+     </div>
+
+     <div class="date-input">
+         <input type="number" name="date" id="day" placeholder="DD">
+         <span id="day-message" style="color:hsl(0, 100%, 67%)"></span>
+
+      
+           <input type="number" name="month" id="month" placeholder="MM">
+           <span id="month-message" style="color:hsl(0, 100%, 67%)"></span>
+
+      
+           <input type="number" name="year" id="year" placeholder=" YYYY">
+           <span id="year-message" style="color:hsl(0, 100%, 67%)"></span>
+      </div>
+      
+
+     <div class="icon">
+          <hr>
+          <button type="submit" onwheel="return false;" class="button-icon" id = "button">
+            <img src="assets/images/icon-arrow.svg" alt="">
+          </button>
+     </div>
+
+         <h1><span id="ageYears"> - -</span> years</h1>
+         <h1><span id="ageMonth"> - -</span> months</h1>
+         <h1><span id="ageDays"> - -</span> days</h1>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Okwe Anthonia Oneno</a>.
+  </div>
+  <script src="birthYear.js"></script>
+</body>
+</html>

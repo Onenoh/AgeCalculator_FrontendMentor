@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+.section{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 94%);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.main{
+    width: 45%;
+    height: 100%;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 50px 50px 50px 30px;
+    border-radius: 20px;
+    border-bottom-right-radius: 160px;
+}
+.date-input{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    display: flex;
+    justify-content: space-between;  
+}
+#date1{
+    margin-left: 16px;
+}
+#date2{
+    margin-left: 30px;
+}
+#date3{
+    margin-right: 240px;
+}
+#day{
+    width: 20%;
+
+}
+#month{
+    position: absolute;
+    right: 49.6%;
+    width: 8%;
+}
+#year{
+    position: absolute;
+    right: 39.3%;
+    width: 8%;
+}
+
+#day-message{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 3%;
+} 
+#month-message{
+    position: absolute;
+    right: 51.5%;
+    top: 33%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    padding-left: 10px;
+} 
+#year-message{
+    position: absolute;
+    right: 41%;
+    top: 33%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    padding-left: 10px;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 1%, 44%);  
+}
+input{
+    text-indent: 3px;
+    border: 1px solid hsl(0, 0%, 86%);
+    font-size: 25px;
+    font-weight: bolder;
+    width: 20%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 5PX 16px;
+    font-family: 'Poppins', sans-serif;
+}
+input:hover{
+    cursor: pointer;
+}
+input::placeholder{
+    color: hsl(0, 1%, 44%);
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* input[type="number"] {
+    -moz-appearance: textfield;
+}  */
+input:focus{
+    outline: 1px solid hsl(259, 100%, 65%);
+    color: hsl(0, 0%, 8%);
+}
+.icon{
+    padding-top: 40px;
+}
+hr{
+    margin: 0 70px 30px 15px;
+    border: 1px solid hsl(0, 0%, 86%);
+}
+.button-icon{
+    position: absolute;
+    right: 445px;
+    margin-top: -70px;
+    border-radius: 50px;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    width: 5%;
+    height: 10%;
+}
+.button-icon:hover{
+    background-color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight:900;
+    font-style: italic;
+    color: hsl(0, 0%, 8%);
+    padding-left: 10px;
+    line-height: 80px;
+}
+h1 span{
+    color: hsl(259, 100%, 65%);
+    font-style: italic;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
